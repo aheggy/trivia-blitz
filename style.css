@@ -62,11 +62,20 @@ ul, li {
     padding: 6px;
     transition: transform .15s;
 }
-/* 
+
 .green {
     background-color: #0b0;
 }
 
 .red {
     background-color: #e23;
-} */
+}
+
+.answers-box li:hover {
+    background-color: yellow;
+    color: blue;
+    cursor: pointer;
+}
+h1 {
+    border-bottom: 3px solid #235cc5;
+}
